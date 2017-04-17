@@ -10,6 +10,7 @@ func main() {
 	y := 3.14  // y at block level scope
 	fmt.Println(y)
 	fmt.Println(z)
+	Hello()
 }
 
 func foo() {
@@ -17,3 +18,7 @@ func foo() {
 }
 
 var z int = 42  // package level accessible throughout package - order not important
+
+func Hello() {
+	fmt.Println("hello")
+}

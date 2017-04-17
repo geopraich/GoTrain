@@ -69,6 +69,8 @@ func fizzBuzz() {
 			fmt.Println("Fizz -", c)
 		}else if c%5 == 0 {
 			fmt.Println("Buzz -", c)
+		}else {
+			fmt.Println(c)
 		}
 	}
 }

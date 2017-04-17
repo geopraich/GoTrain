@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(a)
 	fmt.Println(&a)
 
+
 	var b *int = &a  // b is a pointer to the memory address where an int is stored - b is type "int pointer"
 // * is part of the type - b is type *int
 	fmt.Println(b)
